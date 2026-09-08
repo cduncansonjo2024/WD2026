@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> HTML Exploration</title>
+<meta charset="UTF=8">
+
+<meta name="viewport" content="widith=device-width ,inital-scale=1.0">
+
+
+    
+</head>
+
+</html>
+
+<body>
+</div>
+
+</body>
+
+<h1> HTML Exploration</h1>
+
+
+<p>
+
+    Today I will be exploring new html elements.
+</p>
+
+<h2> 1. < Abbr >  </Abbr></h2>
+
+<p> W3 defined this element as 
+
+    <blockquote> "Abbreviation or an Acronym" </blockquote>
+
+   
+    <h2> Graphic Design Acronyms </h2>
+    <p><strong> <abbr> CMYK</abbr> </strong>
+    <p> Stands for </p>
+    <li> Cyan</li>   <li> Magenta</li>   <li>Yellow </li>  <li> Black</li>
+    </p>
+<p>
+ <strong> <abbr> RBG</abbr> </strong>
+
+ <li> Red </li> <li> Blue </li> <li> Green </li>
+</p>
+<p> 
+<p>
+<strong> <abbr> DPI </abbr></strong>
+</p>
+<strong> Dots </strong> <strong> Per </strong> <strong> inch </strong>
+
+<h2> 2. < Search > </Search></h2>
+<search>
+    <form>
+        <input name ="fsrch" id ="frsch" placeholder="Search W3Schools">
+
+    </form>
+</search>
+
+<h2> 3. < SVG > </SVG> </h2>
+
+<p> W3 defined this element as 
+
+    <blockquote> "
+       <ol> "SVG stands for Scalable Vector Graphics" </ol> 
+       <ol> "SVG is used to define vector-based graphics for the Web"</ol>
+       <ol> "SVG defines graphics in XML format" </ol>
+       <ol> "Each element and attribute in SVG files can be animated"</ol>
+       <ol> "SVG intergrates with other standerds, such as CSS, DOM, XSL and JavaScript" </ol>
+    </blockquote>
+
+
+<h3> Example 1 </h3>
+<h4> SVG Graphic</h4>
+
+<svg width="600" height="400"> 
+    <polygon points= "200,20 80, 396 380, 156 20, 156 320,398"
+    style="fill:rgb(2, 15, 72);stroke: rgb(0, 255, 208); stroke-width:10; fill-rule:evenodd;" /> 
+
+</svg>
+
+
+<h3> Example 2 </h3>
+<h4> SVG Image </h4>
+
+<svg height="377" width="377" xmlns=" file:///Users/christinaduncanson/Downloads/WD2026/DuncansonJones_Christina_
+%20HTMLExploration.html?fsrch=fskfdkdfkdfkdfjfdjfd/svg">
+<image height="377" width ="377" href="heart .svg" />
+
+</svg>
+<h2> 4. < Del > </h2>
+
+<p> 
+W3 defined this element as 
+
+    <blockquote> " The < del > tag defines text that has been deleted from a document. Browsers will usually strike a line through deleted text."
+        "  </blockquote>
+</p>
+<p>
+    <h3> Example </h3>
+    I am studying <del> visual art. </del> Wait actually I am studying <del> perfoming arts.</del>
+    ACTUALLY I AM STUDYING <strong> BOTH</strong>
+<h2> 5. < Blockqoute  ></h2>
+
+<h3> Example </h3>
+My favorite quote of all time is 
+<blockquote> "No one can make <strong> you </strong> feel inferior with 
+<strong> your </strong> consent." 
+
+</blockquote>
+
+<h4> <strong> Eleanor Roosevelt </strong> </h4>
+
+This quote is from my favorite movies 
+<h5> Princess Diaries </h5>
+<h5> Princess Charm School </h5>
+
+<h2> 6. < i > </h2>
+
+
+<p> <blockquote> "The <i> tag defines a part of text in an alternate voice or mood.
+     The content inside is typically displayed in italic." </blockquote> 
+    
+
+<h3> Example </h3>
+
+My <strong> favorite </strong> book is <i> Out of My Mind </i> .
+
+
+
+<h3> 7. < bdo > </h3>
+
+
+
+    <p> W3 defined this element as </p>
+
+    <blockquote> "BDO stands for Bi-Directional Override.
+
+The <bdo> tag is used to override the current text direction."s" </blockquote>
+<p>
+    <h3> Example </h3>
+
+<p> This is my senior year, orginally I started at Palm Beach State in 2021.
+    I chose graphic design because I want to be toy designer. Now that I been to school 
+    for two years now I broden my horizons to children's enterntainment. </p>
+
+    
+  <bdo dir="rtl"> So I went from a Panther to a Owl . Which fun fact is what I 
+        orginally started as in elementary school. 
+    </bdo>
+</p>
+  
+
+<h2> 8. < Address > </h2>
+
+
+<p> w3 defeined this element as </p>
+
+<blockquote>"The <address> tag defines the contact information for the author/owner of a document or an article.
+
+The contact information can be an email address, URL, physical address, phone number, social media handle, etc.
+
+The text in the <address> element usually renders in italic, and browsers will always add a line break before and after the <address> element.
+
+" </blockquote>
+
+
+<h3> Example </h3>
+
+
+<address> Written by <a href= "mailto:cducansonjo2024@fau.edu" >Chrissy Duncanson </a>. <br> Visit us at : 
+Visit us at : <br> 
+https://chrissysgallery.myportfolio.com/ <br>
+Street	1560 Business Center Dr , Fleming Island <br> 
+</address>
+
+
+
+
+    
