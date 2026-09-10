@@ -1,0 +1,38 @@
+/*These are for headings*/
+h1 {
+color: blue; 
+background-color: beige;
+font-size: 200px ;
+font-weight: bolder;
+text-transform: capitalize;}
+
+h2 {
+color: orange;
+font-size: 100px;
+font-weight: bolder;
+}
+
+/* Body */
+p { 
+    font-size: 15px;
+    line-height: normal;
+}
+
+/*This is foa a list*/
+ol {
+
+    color: black;
+    font-size: 15px ;
+    line-height: normal;
+    list-style-type: upper-roman;
+}
+a {
+color:#368c68 ;
+
+text-decoration: dotted; }
+
+/* CSS Element : Opacity. It control the opacity of an image */
+
+img{
+    opacity: 0.5;
+}
