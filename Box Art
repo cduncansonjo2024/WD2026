@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name ="viewport" content=" widith=device-width, initial-scale
+=1.0" />
+<title>Box Model Art Recreation-Grid 9 </title>
+<link rel="stylesheet" href="styles1.css"/>
+</head>
+
+<body>
+
+<main class="page">
+
+<section class="artwork" aria-label="Abstract grird artwork reacreation">
+
+<div class="flex-container">
+<div class="frame-red"> </div>
+
+<div class="field-green"> </div>
+<div class="base-blue"> </div>
+
+
+
+
+
+</div>
+
+
+    
+
+
+
+
+
+
+
+</section>
+</main>
+</body>
+</html>
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;}
+body{ 
+background:#ffffff;
+font-family: Arial, Helvetica, sans-serif;
+}
+.page {
+ min-height: 100px;
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+}
+
+.artwork {
+width: 650px;
+height: 650px;
+/* background: #ffffff; */
+}
+
+.frame-red {
+    width: 100%;
+    height: 520px;
+    background: #ff2a00;
+    padding: 55px;
+}
+.field-green {
+  width: 100%;
+  height: 100%;
+  background: #25d800; /* bright green */
+  padding: 70px;       /* space around the window */
+}
+.pane {
+    flex: 1;
+    background: #ff7a00;
+}
+
+.pane:not(:last-child) {
+margin-right: 16px;
+}
+
+.base-blue {
+width: 100;
+height: 100px;
+background: #78b7ff;
+}
+
+
+*/
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name ="viewport" content=" widith=device-width, initial-scale
+=1.0" />
+<title>Box Model Art Recreation-Grid 9 </title>
+<link rel="stylesheet" href="styles1 copy.css"/>
+</head>
+
+<body>
+
+<main class="page">
+
+<section class="artwork" aria-label="Abstract grird artwork reacreation">
+
+<div class="flex-container">
+<div class="base-blue"> </div>
+<div class="top-group">
+    <div class="frame-red"> </div>
+    <div class="frame-orange"> </div>
+</div>
+<div class="page"></div>
+<div class="field-green"> </div>
+<div class="dark-blue"> </div>
+
+</div>z
+
+
+    
+
+
+
+
+
+
+
+</section>
+</main>
+</body>
+</html>
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;}
+body{ 
+background:#ffffff;
+font-family: Arial, Helvetica, sans-serif;
+}
+.page {
+ min-height: 100px;
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+}
+
+.flex-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: right;
+  background-color: #d1d527;
+    
+
+
+}
+.artwork {
+width: 650px;
+height: 650px;
+/* background: #ffffff; */
+}
+.top-group{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.frame-red {
+    width: 50%;
+    height: 200px;
+    background: #ff2a00;
+    padding: 55px;
+   border-color: #ffc48d;
+   border-width: 200px;
+}
+
+.frame-orange {
+width: 50px;
+height: 250px;
+background-color: #ff5100;
+padding: 100px;
+
+}
+.field-green {
+  width: 600px;
+  height: 500px;
+  background: #25d800; /* bright green */
+  padding: 50px;    
+justify-content: center;
+ align-items: center;
+}
+.pane {
+    flex: 1;
+    background: #ff7a00;
+}
+
+.pane:not(:last-child) {
+margin-right: 16px;
+}
+
+.base-blue {
+width: 100;
+height: 100px;
+background: #78b7ff;
+}
+
+.dark-blue {
+width: 400;
+height: 50px;
+background: #011d3c;
+}
+
+
+*/
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name ="viewport" content=" widith=device-width, initial-scale
+=1.0" />
+<title>Box Model Art Recreation-Grid 9 </title>
+<link rel="stylesheet" href="styles1 copy.css"/>
+</head>
+
+<body>
+
+<main class="page">
+
+<section class="artwork" aria-label="Abstract grird artwork reacreation">
+
+<div class="flex-container">
+<div class="base-blue"> </div>
+<div class="page"> </div>
+<div class="frame-red"> </div>
+
+<div class="field-green"> </div>
+
+
+
+</div>
+
+
+    
+
+
+
+
+
+
+
+</section>
+</main>
+</body>
+</html>
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;}
+body{ 
+background:#ffffff;
+font-family: Arial, Helvetica, sans-serif;
+}
+.page {
+ min-height: 100px;
+ display: flex; 
+ justify-content:right;
+}
+
+.artwork {
+width: 650px;
+height: 650px;
+/* background: #ffffff; */
+}
+
+.frame-red {
+    width: 100%;
+    height: 520px;
+    background: #ff2a00;
+    padding: 55px;
+}
+.field-green {
+  width: 100%;
+  height: 100%;
+  background: #25d800; /* bright green */
+  padding: 70px;       /* space around the window */
+}
+.pane {
+    flex: 1;
+    background: #ff7a00;
+}
+
+.pane:not(:last-child) {
+margin-right: 16px;
+}
+
+.base-blue {
+width: 100;
+height: 100px;
+background: #78b7ff;
+}
+
+
+
+
+
+
