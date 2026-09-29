@@ -1,0 +1,167 @@
+
+/* CSS
+
+body{
+
+font-family: "lexia", serif;
+font-weight: 300;
+font-style: normal;
+}
+Ul{
+List-style-type: none;
+Margin: 0;
+Padding: 0;
+}
+header {
+    background-color: #A3CCC5; 
+    color: white;
+     padding: 30px;
+     text-align: center;
+     font-weight: 1000;
+     font-size: 40px;
+     font-style: normal;
+
+    font-family: "puntino", sans-serif
+}
+     nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30;
+    font-family: "arlette", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal; 
+background-color: orange;}
+
+
+   .nav li a {
+list-style-type: none;
+display: block;
+padding: 15px;
+text-decoration: none;
+font-family: "arlette", sans-serif;
+font-weight: 700;
+font-size: 30px;
+font-style: normal; }
+
+
+main {
+
+display: flex;
+gap: 20px;
+padding: 20px; }
+
+.content-box{
+    flex: 1;
+    background-color: pink;
+    padding: 20px;
+   border: 2px soild black;
+   font-family: "naiad", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+}
+
+
+
+
+footer{background-color: rgb(5, 0, 59);
+color:white;
+text-align: center;
+padding: 20px;}
+
+
+
+
+
+@media screen and (max-width:768px){
+    
+}
+
+
+ 
+
+
+
+    .header2 {
+padding: 50x;
+     text-align: center;
+     font-weight: 1000;
+     font-style: normal;
+
+    font-family: "puntino", sans-serif
+
+
+    }
+
+    h2{
+        font-size: 50px ;
+    }
+    
+
+    .p{
+        font-family: "arlette", sans-serif;
+font-weight: 700;
+font-style: normal;
+padding: 100px;
+justify-content: left;
+}
+
+.footer{
+font-size: 50px;
+justify-content: center;
+
+padding: 250px;
+
+font-family: "lexia", serif;
+font-weight: 300;
+font-style: normal;
+}
+
+
+
+
+
+     .option {
+        flex:1;
+        background-color: pink;
+        padding: 20px;
+        
+    }
+
+    Ul { list-style: none;
+    margin: 0;
+padding: 0;
+overflow: hidden;
+display: flex;
+justify-content: center;}
+
+
+Ul li a {display: block;
+color: white;
+text-align: center;
+padding: 14px;
+text-decoration: none ;}
+
+.container {
+Display: flex;
+Flex-wrap: wrap;
+}
+.column {
+Flex: 25%;
+Padding: 20px;
+}
+@media  (max-width: 768px){
+    nav ul{ 
+        flex-direction: column;
+        align-items: center;
+        gap:0;
+    
+    }
+    main{
+        flex-direction: column;
+    }
+}
